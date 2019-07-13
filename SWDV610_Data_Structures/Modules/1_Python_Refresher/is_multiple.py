@@ -8,3 +8,5 @@ def is_multiple(n, m):
         return True
     else:
         return False
+
+print(is_multiple(5, 25))
