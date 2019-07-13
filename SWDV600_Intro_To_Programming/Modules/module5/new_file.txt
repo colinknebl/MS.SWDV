@@ -1,0 +1,1 @@
+I am a sentence in new_file.txt

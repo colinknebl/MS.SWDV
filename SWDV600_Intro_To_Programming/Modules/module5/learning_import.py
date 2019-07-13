@@ -1,0 +1,1 @@
+print('name in learning_import', __name__)
