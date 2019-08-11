@@ -1,3 +1,4 @@
 *.mov
 *.pyc
 SQL_Scripts/
+*.nogit.*
