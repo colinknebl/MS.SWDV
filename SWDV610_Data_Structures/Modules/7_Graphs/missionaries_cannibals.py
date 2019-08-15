@@ -29,13 +29,15 @@ class MissionaryAndCannibals:
 
     def load_boat(self):
         summary = None
+        # if either a cannibal or missionary is left on bank 1
         if self.bank1.get('cannibals') > 0 or self.bank1.get('missionaries') > 0:
             # if there are an equal number of missionaries as cannibals on bank 1
             if self.bank1.get('missionaries') == self.bank1.get('cannibals'):
+                # if there is the same amount, we have to send a cannibal
                 # load boat with cannibal
                 self._load('cannibals')
                 summary = 'cannibal loaded on boat'
-            else: # load boat with missionary
+            else: # otherwise, load boat with missionary
                 self._load('missionaries')
                 summary = 'missionary loaded on boat'
             self.moves.append({
@@ -49,13 +51,14 @@ class MissionaryAndCannibals:
 
     def unload_boat(self):
         summary = None
+        # if there are 2 people on the boat, or if bank 1 is empty
         if self.boat.get('missionaries') + self.boat.get('cannibals') == 2 or self.bank1_is_empty():
             # if there are an equal number of missionaries as cannibals on bank 2
             if self.bank2.get('missionaries') == self.bank2.get('cannibals'):
                 # unload missionary
                 self._unload('missionaries')
                 summary = 'missionary unloaded from boat'
-            else: # unload cannibal
+            else: # otherwise, unload cannibal
                 self._unload('cannibals')
                 summary = 'cannibal unloaded from boat'
 
@@ -86,12 +89,6 @@ class MissionaryAndCannibals:
             'bank2': deepcopy(self.bank2),
             'boat': deepcopy(self.boat)
         }
-
-    def print_state(self):
-        print() # print space
-        print('Bank 1 : {} cannibal(s), {} missionary/ies'.format(self.bank1.get('cannibals'), self.bank1.get('missionaries')))
-        print('Boat   : {} cannibal(s), {} missionary/ies'.format(self.boat.get('cannibals'), self.boat.get('missionaries')))
-        print('Bank 2 : {} cannibal(s), {} missionary/ies'.format(self.bank2.get('cannibals'), self.bank2.get('missionaries')))
 
 
 def pretty_print(moves):

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe60916d-21b7-403b-b662-740428e091f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modules/7_Graphs/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/7_Graphs/missionaries_cannibals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISYS605_Database_Principles/Modules/2/Knebl_Week 1 - Semester Project- Topic Selection.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../ISYS605_Database_Principles/Modules/2/Knebl_Week 1 - Semester Project- Topic Selection.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/7_Graphs/missionaries_cannibals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/7_Graphs/missionaries_cannibals.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,33 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/7_Graphs/graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
-              <folding>
-                <element signature="e#44#284#0" />
-                <element signature="e#299#881#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Modules/7_Graphs/missionaries_cannibals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            <state relative-caret-position="79">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -371,21 +346,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49051094" visible="true" weight="0.15806195" />
       <window_info id="Structure" order="1" sideWeight="0.50948906" side_tool="true" weight="0.03916449" />
       <window_info id="Favorites" order="2" sideWeight="0.5011547" side_tool="true" weight="0.24939467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960285" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8260524" visible="true" weight="0.5007299" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8260524" visible="true" weight="0.58832115" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8395552" weight="0.45839417" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988086" weight="0.32846716" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4988086" weight="0.32846716" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980143" weight="0.32846716" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17394757" side_tool="true" visible="true" weight="0.5007299" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17394757" side_tool="true" visible="true" weight="0.58832115" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4932486" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -556,15 +530,15 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="825">
           <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/7_Graphs/missionaries_cannibals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        <state relative-caret-position="79">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
