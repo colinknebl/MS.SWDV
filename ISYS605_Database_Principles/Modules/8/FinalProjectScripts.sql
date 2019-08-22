@@ -417,15 +417,3 @@ RETURN (
     WHERE U.LastName = @UserLastName
 );
 GO
-
-
-
--- SELECT InvoiceNumber, InvoiceTotal, InvoiceDate, InvoiceDueDate,
---     CASE
---         WHEN DATEDIFF(day, InvoiceDueDate, GETDATE()) > 30
---             THEN '1 to 30 days past due'
---         WHEN DATEDIFF(day, InvoiceDueDate, GETDATE()) > 0
---             THEN 'Over 30 days past due'
---         ELSE 'CURRENT'
---     END AS [Status]
--- FROM Invoices
