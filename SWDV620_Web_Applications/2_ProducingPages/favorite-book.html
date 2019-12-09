@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Favorite Book</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>My Favorite Book</h1>
+        </header>
+
+        <main>
+            <section>
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th colspan="5">My Favorite Books</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Year</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="5"><span>Books</span></td>
+                        </tr>
+                        <tr>
+                            <td>The Lord of the Rings: The Fellowship of the Ring</td>
+                            <td>J.R.R. Tolkien</td>
+                            <td>1954</td>
+                            <td>
+                                <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_blank">Wiki page</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Lord of the Rings: The Two Towers</td>
+                            <td>J.R.R. Tolkien</td>
+                            <td>1954</td>
+                            <td>
+                                <a href="https://www.imdb.com/title/tt0167261/" target="_blank">IMDB page</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Lord of the Rings: The Return of the King</td>
+                            <td>J.R.R. Tolkien</td>
+                            <td>1955</td>
+                            <td>
+                                <a href="https://lotr.fandom.com/wiki/The_Return_of_the_King_(novel)" target="_blank">Fandom Wiki page</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Form</legend>
+                    <form action="submit.php" method="POST">
+
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username">
+                        
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                        
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments" cols="30" rows="3"></textarea>
+                        
+                        <div class="form-buttons">
+                            <input type="reset" value="Clear">
+                            <input type="submit" value="Submit">
+                        </div>
+
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+    </body>
+</html>

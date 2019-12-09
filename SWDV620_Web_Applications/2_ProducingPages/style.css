@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+thead tr,
+tbody tr:first-of-type {
+    background: lightgoldenrodyellow;
+    font-weight: bolder;
+}
+
+tbody tr:first-of-type td span {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+th, td {
+    padding: 0.6rem;
+}
+
+label {
+    display: block;
+}
+
+.form-buttons input {
+    border: 1px solid green;
+    cursor: pointer;
+    padding: .5rem;
+    transition: background .2s, color .2s;
+}
+
+.form-buttons input:hover {
+    background: green;
+    color: white;
+}
