@@ -3,11 +3,6 @@ from DB import DB
 from datetime import date
 from Inventory import InventoryItem
 
-# order_items = Table('order_items', DB.Base.metadata,
-#     Column('order_id', ForeignKey('orders.id'), primary_key=True),
-#     Column('item_id', ForeignKey('items.id'), primary_key=True)
-# )
-
 class Item(DB.Base):
     __tablename__ = 'items'
 
@@ -18,10 +13,6 @@ class Item(DB.Base):
 
     vendor_id = Column(Integer, ForeignKey('vendors.id'))
     vendor = orm.relationship('Vendor', back_populates='items')
-
-    # orders = orm.relationship('Order', secondary='order_items', back_populates='items')
-    # order_id = Column(Integer, ForeignKey('orders.id'))
-    # order = orm.relationship('Order', uselist=False, back_populates='items')
 
     inventory_items = orm.relationship('InventoryItem', order_by=InventoryItem.id, back_populates='item')
 

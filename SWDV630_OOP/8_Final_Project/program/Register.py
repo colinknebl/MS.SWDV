@@ -2,9 +2,6 @@ from datetime import date
 from Person import Person
 from Inventory import InventoryItem
 
-class PaymentMethod:
-    pass
-
 
 class Transaction:
 
@@ -28,13 +25,10 @@ class Transaction:
         self.items.append(item)
 
 
-        
-
 class Register:
 
     def __init__(self, pos):
         self.pos = pos
-
     
     def checkout(self):
         transaction = Transaction()
@@ -97,9 +91,6 @@ class Register:
         self.__get_customer_details(transaction)
         self.__process_transaction(transaction)
 
-        # self.pos.account.print()
-        # transaction.customer.account.print()
-
         self.__print_receipt(transaction)
 
     def __process_transaction(self, transaction):
@@ -122,4 +113,3 @@ class Register:
 
     
         inventory.print()
-

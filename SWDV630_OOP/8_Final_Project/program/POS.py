@@ -8,7 +8,7 @@ from Inventory import Inventory, InventoryItem
 from Vendor import Item, Vendor
 from Register import Register
 from Account import Account
-from test_case_runners \
+from driver \
     import run_uc1, run_uc2, run_uc3, \
            run_uc4, run_uc5, run_uc6, \
            run_uc7, run_uc8, run_uc9, \
