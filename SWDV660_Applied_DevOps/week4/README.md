@@ -16,7 +16,7 @@ In another terminal/command prompt window type.
 $ python src/client.py
 ```
 
-An option parameter can be supplied to the client script which will be the message sent to the server; if no message is supplied 'Hello' will be sent.
+An optional parameter can be supplied to the client script which will be the message sent to the server; if no message is supplied 'Hello' will be sent.
 
 ```
 $ python src/client.py FooBar
